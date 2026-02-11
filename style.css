@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #04AA6D, #028a58);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header button {
+    padding: 12px 25px;
+    background: white;
+    color: #04AA6D;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.features {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 30px;
+    margin: 15px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.long-content {
+    padding: 40px;
+}
+
+.scroll-box {
+    height: 300px;
+    background: #e3e3e3;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.popup-content {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin: 10% auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popup-content input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    background: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
